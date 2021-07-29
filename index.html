@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="bmi.js"></script>
+    <script src="https://kit.fontawesome.com/04f30cee04.js" crossorigin="anonymous"></script>
+
+
+    <title>Workouts- The Fitness Club</title>
+</head>
+
+
+<body>
+    <header>
+    <nav class="navbar background">
+        <ul class="navlist">
+            <div class="logo">
+                <a href="/index.html"><img src="/image/register3.png" alt="logo"></a>
+            </div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+        <div class="right">
+            <ul class="navright">
+                <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fas fa-envelope-square fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube-square fa-2x"></i></a></li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+    <section class="background" id="home">
+        <div class="box-main">
+
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="main">
+                <h2>ABOUT US</h2>
+                <img src="/image/about.jpg" alt="about image"><br>
+                <p>We start here not just because this has long been our primary expertise but also because we
+                    acknowledge that being in great shape and feeling fit helps to rid the mind a lot of negative self
+                    talk that can be unproductive over many areas of your life. Once we’ve quieted those voices we have
+                    a far greater opportunity to move forward with a still mind.
+                </p>
+                <p>
+                    Our training programs have two primary objectives. The first is to achieve results on a short time
+                    scale, typically over 6 – 24 weeks. This means you will be training hard and eating the kind of food
+                    that is going to help you achieve your goal.
+                </p>
+            </div>
+            <div class="sidebar">
+                <h2>BMI CALCULATOR</h2>
+
+                <div class="bmiform">
+                    <form>
+                        <p class="text">HEIGHT </p><input type="text" id="h" required><br><br>
+                        <p class="text">WEIGHT </p><input type="text" id="w" required><br><br>
+                        <p id="result"></p>
+                        <p id="type"></p>
+
+                        <button class="btn" onclick="bmi();event.preventDefault()">CALCULATE NOW</button><br /><br />
+                        <p class="info">Please enter height in cms and weight in kg</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trainers">
+        <h2>OUR TRAINERS</h2>
+        <div class="trainerbox">
+            <div class="box">
+                <img src="image/coach4.jpg" alt="coach1" width="20" height="20">
+                <div class="name">
+                    <h3>Matt Roberts</h3>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/coach1.jpg" alt="coach1" width="20" height="20">
+                <div class="name">
+                    <h3>Alexandra Scott</h3>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/coach2.jpg" alt="coach1" width="20" height="20">
+                <div class="name">
+                    <h3>Tina Young</h3>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/coach3.jpg" alt="coach1" width="20" height="20">
+                <div class="name">
+                    <h3>Shaun Stafford</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section id="register">
+        <div class="container">
+            <div class="image">
+                <img src="/image/register3.png" alt="workout image" width="200" height="200">
+            </div>
+
+            <h2>Register</h2>
+            <form class="registration-form">
+                <label class="col-one-half">
+                    <span class="label-text">First Name</span>
+                    <input class="input" type="text" name="firstName" required>
+                </label>
+                <label class="col-one-half">
+                    <span class="label-text">Last Name</span>
+                    <input type="text" name="lastName" required>
+                </label>
+                <label>
+                    <span class="label-text">Email</span>
+                    <input type="text" name="email" required>
+                </label>
+                <label>
+                    <span class="label-text">Mobile</span>
+                    <input type="text" name="mobile" required>
+                </label>
+
+                <div class="register-btn">
+                    <button class="submit" onclick="" name="register">Sign Me Up</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <section id=contact>
+        <footer>
+            <div class="copywright">
+                <h4>CopyWright &copy; 2021 - All Rights Reserved by Shreya Holla</h4>
+            </div>
+            <div class="links">
+                <a href="#" class="linked insta"><span><i class="fa fa-instagram"></i></span></a>
+                <a href="#" class="linked "><span><i class="fa fa-linkedin"></i></span></a>
+                <a href="#" class="linked "><span class="twitter"><i class="fa fa-twitter"></i></span></a>
+                <a href="#" class="linked facebook"><span><i class="fa fa-facebook"></i></span></a>
+            </div>
+        </footer>
+    </section>
+
+    <script>
+</script>
+</body>
+
+</html>
